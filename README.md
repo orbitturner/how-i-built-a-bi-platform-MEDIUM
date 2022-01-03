@@ -90,7 +90,7 @@ Ce qui différencie un projet de dev pour une entreprise et un projet de dev pou
 
 Donc l’étape cruciale a été de dire à notre DSI: “*Ok cool ! Je vois ce que vous attendez de moi. Maintenant, on commence par quoi ?*”.
 
-Cela paraît banal mais redéfinir les besoins c’est tout d’abord redécouper le besoin en plusieurs petits blocs puis les organiser par priorité. Oui çà à un nom c’est être : ***AGILE ***!
+Cela paraît banal mais redéfinir les besoins c’est tout d’abord redécouper le besoin en plusieurs petits blocs puis les organiser par priorité. Oui, çà a un nom, c’est être : ***AGILE ***!
 
 ![](https://cdn-images-1.medium.com/max/2000/0*4FrvQsYDeqsV0bom.gif)
 
@@ -101,9 +101,9 @@ Il faut savoir qu’en fonction des premières demandes j’ai cru qu’il s’a
 Selon *Oracle* un ERP est : 
 >  Un type de logiciel que les entreprises utilisent pour gérer leurs activités quotidiennes telles que la [comptabilité](https://www.oracle.com/sn/erp/financials-cloud/), les [achats](https://www.oracle.com/sn/erp/procurement-cloud/), la [gestion de projets](https://www.oracle.com/sn/erp/project-portfolio-management-cloud/), la [gestion des risques et la conformité](https://www.oracle.com/sn/erp/risk-management/), ainsi que les [opérations de supply chain](https://www.oracle.com/sn/erp/what-is-erp/). Une suite ERP complète comprend également un logiciel de [gestion de la performance](https://www.oracle.com/sn/performance-management/) (EPM) qui aide à planifier, budgétiser, prévoir et générer un rapport sur les résultats financiers d’une entreprise.
 
-Cependant même si plusieurs modules du projet se rapprochaient à çà, ce n’était pas autant un full ERP. La partie analyse, métriques et suivi était beaucoup plus important. Sachant aussi que la boîte avait déjà un ERP gérant tous les départements et que ses données à lui aussi seront intégrés dans la nouvelle plateforme.
+Cependant même si plusieurs modules du projet se rapprochaient de çà, ce n’était pas autant un full ERP. La partie analyse, métriques et suivi était beaucoup plus importante. Sachant aussi que la boîte avait déjà un ERP gérant tous les départements et que ses données à lui aussi seront intégrés dans la nouvelle plateforme.
 
-Alors en faisant le dossier technique qui étudie en profondeur certains aspects des besoins et des départements pour lesquels l’outil aller être mis en place on se rapprocher de plus en plus d’une plateforme et pas n’importe lequel !
+Alors en faisant le dossier technique qui étudie en profondeur certains aspects des besoins et des départements pour lesquels l’outil allait être mis en place on se rapprochait de plus en plus d’une plateforme, et pas n’importe laquelle !
 ***Une Plateforme de Business Intelligence !***😫
 
 Mais c’est Quoi réellement le BI ?
@@ -129,7 +129,7 @@ La loi de Gall explique pourquoi le prototype et l’itération sont des méthod
 
 La raison principale en est qu’**un système complexe est constitué d’une quantité importante de paramètres et de dépendances**. C’est la logique du mouvement *Lean-Startup* avec la création puis l’amélioration d’un *MVP*.
 
-Je me suis pas dès le départ dit que j’allais construire une plateforme BI. J**e ne me suis pas dit que j’allais créer un système hyper performant** avec du load balancing, du caching, et des optimisations sur tout etc.
+Je ne me suis pas dès le départ dit que j’allais construire une plateforme BI. **Je ne me suis pas dit que j’allais créer un système hyper performant** avec du load balancing, du caching, et des optimisations sur tout etc.
 
 J’ai commencé par la construction d’un squelette rigide qui me permettrait en avançant de placer mes blocs  sans fragiliser la structure. Les décisions du départ ont été les clés de la suite.
 
@@ -141,7 +141,7 @@ J’ai commencé par la construction d’un squelette rigide qui me permettrait 
 
 Au départ j’étais là à me faire toutes les architectures possibles du monde BFF, Microservices, Micro-Frontend, etc.
 
-Mais vous comprendrez que bien que Rome n’a pas été fait en un jour. À cause de notre passion nous sommes bien souvent sous la “hype” de vouloir utiliser ou tester tout ce qui sort. Mais ces solutions s’appliquent à des problèmes spécifiques. Si les FAANG ou GAFAM sortent tout le temps de nouvelles architectures, frameworks, etc.; ce n’est pas par volonté mais par nécessité. Les noms viennent souvent bien après. Au cours de ce projet j’ai eu à faire certains choix, certains tweaks et résoudre certains problèmes avant de me rendre compte qu’il y avait un nom pour çà.
+Mais vous comprendrez bien que Rome n’a pas été fait en un jour. À cause de notre passion nous sommes bien souvent sous la “hype” de vouloir utiliser ou tester tout ce qui sort. Mais ces solutions s’appliquent à des problèmes spécifiques. Si les FAANG ou GAFAM sortent tout le temps de nouvelles architectures, frameworks, etc.; ce n’est pas par volonté mais par nécessité. Les noms viennent souvent bien après. Au cours de ce projet j’ai eu à faire certains choix, certains tweaks et résoudre certains problèmes avant de me rendre compte qu’il y avait un nom pour çà.
 
 J’ai commencé le projet avec une architecture distribuée pour, en progressant et au fil des besoins pouvoir tendre vers de l’extrême ‘***Segregation of Principle***’ en faisant du *MICRO MICRO* 😂
 
@@ -157,7 +157,7 @@ Que ce soit en entreprise ou dehors ce que voit les utilisateurs et les demandeu
 
 J’ai dû dès le départ déployer dans l’un de nos serveurs en interne une version de l’application et mettre en place un pipeline de CI/CD afin que chaque 02 ou 03 jours, ils puissent suivre les évolutions avec fierté.😂
 
-Oui j’ai choisi **Angular **en front et les raisons étaient nombreuses. À mon avis quand on parle de projet d’entreprise, de plateforme ou d’outils de gestion c’est le meilleur choix en matière de **technos JS**. Son architecture orientée scalabilité, sa maturité, sa structuration et sa stabilité font qu’il fait qu’il facilite l’uniformisation et l’évolution de la solution construite. 
+Oui j’ai choisi **Angular **en front et les raisons étaient nombreuses. À mon avis quand on parle de projet d’entreprise, de plateforme ou d’outils de gestion c’est le meilleur choix en matière de **technos JS**. Son architecture orientée scalabilité, sa maturité, sa structuration et sa stabilité font qu’il facilite l’uniformisation et l’évolution de la solution construite. 
 J’ai l’habitude de dire que Angular est dans les technos JS ce que JAVA est face aux autres langages. Il est strict et puissant et très orienté scalabilité.
 >  Cependant ce n’est pas à cause d’Angular que la plateforme est devenue ce qu’elle est.Angular, React, Svelte, Vue, Laravel ce sont tous des outils ! 
 Comme ce qu’est un crayon dans la main d’un architecte. C’est à cette main d’en faire un excellent usage et d’en créer un joyau.
@@ -168,7 +168,7 @@ Dès le départ j’ai voulu trouver des raccourcis très efficaces et évolutif
 
 En général un seul suffit. Une fois le choix effectué, c’était autour du UI crafting. Je passais plusieurs jours à créer des composants réutilisables permettant à la demande de créer une interface, page ou module rien qu’en les appelants et les paramétrant.
 
-### FRONT ARCHITECTURE & CODING COVENTION
+### FRONT ARCHITECTURE & CODING CONVENTION
 
 En commençant le projet j’ai su que j’aurais tôt ou tard besoin de prendre plus de gens avec moi pour aller plus vite. Mais il fallait que ces gens en arrivant comprennent facilement et rapidement comment est structuré le projet et comment y contribuer. 
 
@@ -193,7 +193,7 @@ Le dossier component contiendra toutes les vues et composants UI du projet. Nos 
 
 ### Ui-elements
 
-On y mettra tous les composants unitaires qui pourront être utilisé un peu partout indépendamment du module. Par exemple : *un DataGrid, Un Graphique, Chart Generator, Les Exporters, un bouton, une Card, un Modal*, etc.
+On y mettra tous les composants unitaires qui pourront être utilisés un peu partout indépendamment du module. Par exemple : *un DataGrid, Un Graphique, Chart Generator, Les Exporters, un bouton, une Card, un Modal*, etc.
 
 ### Layout
 
@@ -235,7 +235,7 @@ Euh…😑 dès que j’ai pas de nom pour un package ou un utilitaire que je cr
 
 ![](https://cdn-images-1.medium.com/max/2000/1*4C_zhl5MFJ9boTFrspJphQ.png)
 
-Dans ce dossier on trouve les pages d’erreurs ainsi que le module de gestion d’erreur. Cette dernière permet d’intercepter, d’étudier et de gérer toutes les erreurs de notre application. À la fin de chaque journée les logs sont regroupés puis envoyés en Base afin de nous permettre de les étudier.
+Dans ce dossier on trouve les pages d’erreurs ainsi que le module de gestion d’erreur. Ce dernier permet d’intercepter, d’étudier et de gérer toutes les erreurs de notre application. À la fin de chaque journée les logs sont regroupés puis envoyés en Base afin de nous permettre de les étudier.
 
 *Exemple de logs en base :*
 
@@ -313,19 +313,13 @@ Lors des premiers mois le front faisait 70% du traitement à travers différents
 
 Cependant, vous vous doutez bien que les données que manipule le front viennent du back. Alors je vais vous parler de comment j’ai pu résoudre l’un de mes plus grands défi en 2021 avec une facilité incroyable !
 
-![](https://cdn-images-1.medium.com/max/2000/1*3qN5rLjcnAmaWFn7upM31Q.gif)
-
-
-
-![PART 2 : REBIENVENUE !](https://cdn-images-1.medium.com/max/2880/1*jEOkV21c73sA72EFFCwkUQ.gif)
-
 ## LE BACKEND 
 
 Hooooo ! L’informatique ! ☺
 
-Elle avance à un rythme effréné ! Avant le choix de la technologie (*Langage de programmation*) était primordial avant de commencer un projet. Elle la techno déterminait ce qu’on pouvait faire ou non et les limites.
+Elle avance à un rythme effréné ! Avant, le choix de la technologie (*Langage de programmation*) était primordial avant de commencer un projet. Elle (la techno) déterminait ce qu’on pouvait faire ou non et les limites.
 
-Je ne dis pas que ce n’est plus le cas, mais cette grande barrière entre les technos n’existe presque plus. De nos jours que ce soit Java, Python, JS/TS, ou même PHP ils sont tous capable de construire une application à très grande charge et hyper performant.
+Je ne dis pas que ce n’est plus le cas, mais cette grande barrière entre les technos n’existe presque plus. De nos jours que ce soit Java, Python, JS/TS, ou même PHP ils sont tous capable de construire une application à très grande charge et hyper performante.
 
 Javascript m’a toujours plus. Mais durant ce projet j’ai été ébahi de la puissance de cette technologie qu’on a tendance à sous-estimer. JS a su évoluer très vite tout en gardant sa charmante simplicité qui permet à tout le monde d’embrasser son univers sans prise de tête.
 
@@ -476,9 +470,9 @@ Cette base solide et bien optimisée pour aller vite à permis de bien assoir le
 
 ### NESTJS ARCHITECTURE
 
-La hiérarchie coté back est très similaire au front avec une méthodologie orientée helpers qui permet de partager les traitement entre plusieurs modules et de faciliter la réutilisation et l’évolution.
+La hiérarchie côté back est très similaire au front avec une méthodologie orientée helpers qui permet de partager les traitement entre plusieurs modules et de faciliter la réutilisation et l’évolution.
 
-Au départ j’avais pensé chaque module comme un microservice et déployé à part maïs je me suis rendu compte que j’étais dans de l’Over-Engineering vis-à-vis du contexte et que les gains de performance étaient très discutables.
+Au départ j’avais pensé chaque module comme un microservice et déployé à part mais je me suis rendu compte que j’étais dans de l’Over-Engineering vis-à-vis du contexte et que les gains de performance étaient très discutables.
 
 ![](https://cdn-images-1.medium.com/max/2000/1*gcAcQ-lCrpOsmDz06t3ECQ.png)
 
@@ -506,7 +500,7 @@ Dans notre cas la phase de ‘***Load***’ sera plus associés à du ‘***Visu
 
 La structure Backend bien géré nous permet de nous concentrer sur les algorithmes et processus à mettre en place afin de pouvoir exploiter ces grandes masses de données.
 
-Il faut savoir que d’habitude pour une application “normale” comme on a l’habitude d’en faire pour de petits clients beaucoup de choses sont ignorés côté code. Tels que le temps d’appel a la BDD, le timing des boucles, leurs types, ainsi que la performance en temps et en ressources d’une fonction, d’un helper ou d’un Microservice.
+Il faut savoir que d’habitude pour une application “normale” comme on a l’habitude d’en faire pour de petits clients beaucoup de choses sont ignorés côté code. Tels que le temps d’appel à la BDD, le timing des boucles, leurs types, ainsi que la performance en temps et en ressources d’une fonction, d’un helper ou d’un Microservice.
 
 Sous le poids de toutes ces données la moindre petite optimisation est exponentielle sur l’ensemble d’un module.
 
@@ -560,7 +554,7 @@ Avant de parler optimisation, cache, load-balancing, Vertical/Horizontal Scaling
 
 ### SELF OPTIMISATION 
 
-En tant que dev on est amené à toucher énormément de technologie cela dit rien ne nous empêche de nous spécialiser dans un langage de notre choix qui représentera notre base algorithmique. Tout comme [Jeff Delaney](undefined) plus connu sur la chaine #fireship, j’ai appris par moi même pleines de technos.
+En tant que dev on est amené à toucher énormément de technologie cela dit rien ne nous empêche de nous spécialiser dans un langage de notre choix qui représentera notre base algorithmique. Tout comme [Jeff Delaney](undefined) plus connu sur la chaine #fireship, j’ai appris par moi même pleins de technos.
 
 Mais je me suis spécialisé sur JS car j’en avais envie et que c’était un très large univers. 
 
@@ -594,9 +588,9 @@ Attention ! 🙄 Je vous vois venir cela ne veut pas dire que tu ne dois pas éc
 
 ### UTILISER LES METHODES DU LANGAGE
 
-Chaque langage vient avec ses innombrables fonctions embarquées. Celles-ci ont été souvent faite en prenant en comptant toutes les aspects performances. Elles sont vos meilleures amies pour vous éviter de télécharger énormément de dépendances inutiles ou de créer un autre bordel qui tuera le prochain développeur à se pencher dessus.
+Chaque langage vient avec ses innombrables fonctions embarquées. Celles-ci ont été souvent faites en prenant en comptant tous les aspects de performances. Elles sont vos meilleures amies pour vous éviter de télécharger énormément de dépendances inutiles ou de créer un autre bordel qui tuera le prochain développeur à se pencher dessus.
 
-En ce qui concerne Javascript, les ‘*Built-in Functions*’ (tels que les méthodes sur les arrays, etc) sont vos meilleurs amis. Il très peu probable que vous ayez besoin de quelque chose qui n’a pas déjà été faite.
+En ce qui concerne Javascript, les ‘*Built-in Functions*’ (tels que les méthodes sur les arrays, etc) sont vos meilleurs amis. Il est très peu probable que vous ayez besoin de quelque chose qui n’a pas déjà été fait.
 
 ### BE ASYNC !
 
@@ -678,7 +672,7 @@ En front la mise en cache côté navigateur faisait déjà le boulot puis la lim
 
 Nous avons comme je l’ai dit plutôt, déployé d’abord avant de continuer nos builds et livraisons. Ce workflow très orienté DevOps nous a permis très tôt de penser à des solutions pour le scaling futur de notre application. 
 
-Bien que nous ayons toutes les ressources que l’on désirait j’ai toujours refusé utiliser plus que j’avais besoin. Ce qui veut dire que durant toute son existence. L’appli (Front & Back) était déployée dans l’un de nos plus faibles serveurs.
+Bien que nous ayons toutes les ressources que l’on désirait j’ai toujours refusé d'utiliser plus que ce dont j’avais besoin. Ce qui veut dire que durant toute son existence. L’appli (Front & Back) était déployée dans l’un de nos plus faibles serveurs.
 
 Une machine avec 4 Giga RAM, un disque HDD et un processeur i7. Tout ce qu’il y a de plus banal.
 
@@ -782,7 +776,7 @@ Mais je dois aussi beaucoup de choses à ce que nous développeur on oublie trè
 
 ## QUELQUES SCREENSHOT DE LA PLATEFORME
 
-En raison d’un NDA et de tralala pareil je ne vous montrer une version compléte de l’application et des autres fonctionnalités. Néanmoin je reste ouvert pour toutes questions supplémentaires.
+En raison d’un NDA et de tralala pareil je ne vous montrerais pas une version compléte de l’application et des autres fonctionnalités. Néanmoin je reste ouvert pour toutes questions supplémentaires.
 
 ![Login Page](https://cdn-images-1.medium.com/max/3188/1*oiguzoVBpQyqTbLYtRjtuQ.png)
 
