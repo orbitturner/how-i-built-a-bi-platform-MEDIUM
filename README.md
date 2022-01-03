@@ -313,6 +313,12 @@ Lors des premiers mois le front faisait 70% du traitement à travers différents
 
 Cependant, vous vous doutez bien que les données que manipule le front viennent du back. Alors je vais vous parler de comment j’ai pu résoudre l’un de mes plus grands défi en 2021 avec une facilité incroyable !
 
+![](https://cdn-images-1.medium.com/max/2000/1*3qN5rLjcnAmaWFn7upM31Q.gif)
+
+
+
+![PART 2 : REBIENVENUE !](https://cdn-images-1.medium.com/max/2880/1*jEOkV21c73sA72EFFCwkUQ.gif)
+
 ## LE BACKEND 
 
 Hooooo ! L’informatique ! ☺
