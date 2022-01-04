@@ -90,7 +90,7 @@ Ce qui différencie un projet de dev pour une entreprise et un projet de dev pou
 
 Donc l’étape cruciale a été de dire à notre DSI: “*Ok cool ! Je vois ce que vous attendez de moi. Maintenant, on commence par quoi ?*”.
 
-Cela paraît banal mais redéfinir les besoins c’est tout d’abord redécouper le besoin en plusieurs petits blocs puis les organiser par priorité. Oui, çà a un nom, c’est être : ***AGILE ***!
+Cela paraît banal mais redéfinir les besoins c’est tout d’abord redécouper le besoin en plusieurs petits blocs puis les organiser par priorité. Oui, çà a un nom, c’est être : **AGILE!**
 
 ![](https://cdn-images-1.medium.com/max/2000/0*4FrvQsYDeqsV0bom.gif)
 
@@ -313,11 +313,18 @@ Lors des premiers mois le front faisait 70% du traitement à travers différents
 
 Cependant, vous vous doutez bien que les données que manipule le front viennent du back. Alors je vais vous parler de comment j’ai pu résoudre l’un de mes plus grands défi en 2021 avec une facilité incroyable !
 
+![](https://cdn-images-1.medium.com/max/2000/1*3qN5rLjcnAmaWFn7upM31Q.gif)
+
+
+
+![PART 2 : REBIENVENUE !](https://cdn-images-1.medium.com/max/2880/1*jEOkV21c73sA72EFFCwkUQ.gif)
+
 ## LE BACKEND 
 
 Hooooo ! L’informatique ! ☺
 
-Elle avance à un rythme effréné ! Avant, le choix de la technologie (*Langage de programmation*) était primordial avant de commencer un projet. Elle (la techno) déterminait ce qu’on pouvait faire ou non et les limites.
+Elle avance à un rythme effréné ! 
+Avant, le choix de la technologie (*Langage de programmation*) était primordial avant de commencer un projet. Elle (la techno) déterminait ce qu’on pouvait faire ou non et les limites.
 
 Je ne dis pas que ce n’est plus le cas, mais cette grande barrière entre les technos n’existe presque plus. De nos jours que ce soit Java, Python, JS/TS, ou même PHP ils sont tous capable de construire une application à très grande charge et hyper performante.
 
@@ -672,7 +679,7 @@ En front la mise en cache côté navigateur faisait déjà le boulot puis la lim
 
 Nous avons comme je l’ai dit plutôt, déployé d’abord avant de continuer nos builds et livraisons. Ce workflow très orienté DevOps nous a permis très tôt de penser à des solutions pour le scaling futur de notre application. 
 
-Bien que nous ayons toutes les ressources que l’on désirait j’ai toujours refusé d'utiliser plus que ce dont j’avais besoin. Ce qui veut dire que durant toute son existence. L’appli (Front & Back) était déployée dans l’un de nos plus faibles serveurs.
+Bien que nous ayons toutes les ressources que l’on désirait j’ai toujours refusé d’utiliser plus que ce dont j’avais besoin. Ce qui veut dire que durant toute son existence. L’appli (Front & Back) était déployée dans l’un de nos plus faibles serveurs.
 
 Une machine avec 4 Giga RAM, un disque HDD et un processeur i7. Tout ce qu’il y a de plus banal.
 
@@ -762,6 +769,48 @@ Le Multhreading est un moyen d’asynchrones dans la programmation, mais nous po
 
 Le multithread agit au niveau du processeur alors que l’asynchrone est au niveau des opérations du programme.
 
+
+
+### **ENFIN LE SUIVI & LE MONITORING**
+
+Avant d’essayer d’améliorer les performances d’un système, il est nécessaire de mesurer le niveau de performance actuel. De cette façon, vous connaîtrez les inefficacités et la bonne stratégie à adopter pour obtenir les résultats souhaités. L’évaluation du niveau actuel de performances d’une application peut nécessiter l’exécution de différents types de tests, tels que les suivants :
+
+* **Test de charge** : fait référence à la pratique consistant à simuler l’utilisation attendue d’un système et à mesurer sa réponse à mesure que la charge de travail augmente.
+
+* **Tests de résistance** : conçus pour mesurer les performances d’un système au-delà des limites des conditions de travail normales. Son objectif est de déterminer combien le système peut gérer avant qu’il ne tombe en panne et comment il tente de se remettre d’une panne.
+
+* **Spike testing **: permet de tester le comportement d’une application lorsqu’elle reçoit une augmentation ou une diminution drastique de la charge.
+
+* **Test d’évolutivité **: utilisé pour trouver le point auquel l’application cesse de se mettre à l’échelle et identifier les raisons qui la sous-tendent.
+
+* **Test de volume** : détermine si un système peut gérer de grandes quantités de données.
+
+* **Test d’endurance** : permet d’évaluer le comportement d’une application logicielle sous une charge soutenue pendant une longue période, pour détecter des problèmes tels que des fuites de mémoire.
+
+L’exécution de certains ou de tous les tests ci-dessus vous fournira plusieurs mesures importantes, telles que :
+
+* ***temps de réponse***
+
+* ***latence moyenne***
+
+* ***taux d’erreur***
+
+* ***requêtes par seconde***
+
+* ***débit***
+
+* ***Utilisation du processeur et de la mémoire
+utilisateurs concurrents
+et plus.***
+
+Après avoir mis en place une optimisation spécifique, n’oubliez pas de relancer les tests pour vérifier que vos modifications ont eu l’effet souhaité sur les performances du système.
+
+Il est également important d’utiliser un outil de surveillance des performances des applications (APM) pour garder un œil sur les performances à long terme d’un système. Différentes solutions de surveillance peuvent s’en occuper pour vous. 
+
+Aussi le suivi des utilisateurs et de leurs actions dans le cas d’un produit d’entreprise permet de prévenir les fraudes et actions frauduleux et de dégager la responsabilité ou non de ceux qui sont ciblés.
+
+![Juste comme çà 😂😅](https://cdn-images-1.medium.com/max/2000/0*WPreLe7zQBP-6LHd.gif)
+
 Aujourd’hui jours après jours nous continuons à relever des défis et à répondre toujours à des demandes tout aussi folles ! Mais nous n’avons aucune crainte quant à l’évolution et à la rigidité de notre application. Il nous reste beaucoup de choses à parfaire et à implémenter mais nous le faisons avec fierté et sagesse.
 
 Ce n’est pas à cause de mon talent ou de mon génie qu’aujourd’hui cette plateforme est là où il est, NON. C’est parce que j’ai eu la chance d’avoir pu me poser des limites. D’avoir su qu’il fallait poser de petites pierres bout à bout pour avoir cette structure.
@@ -776,7 +825,7 @@ Mais je dois aussi beaucoup de choses à ce que nous développeur on oublie trè
 
 ## QUELQUES SCREENSHOT DE LA PLATEFORME
 
-En raison d’un NDA et de tralala pareil je ne vous montrerais pas une version compléte de l’application et des autres fonctionnalités. Néanmoin je reste ouvert pour toutes questions supplémentaires.
+En raison d’un NDA et de tralala pareil je ne vous montrerais pas une version complète de l’application et des autres fonctionnalités. Néanmoins je reste ouvert pour toutes questions supplémentaires.
 
 ![Login Page](https://cdn-images-1.medium.com/max/3188/1*oiguzoVBpQyqTbLYtRjtuQ.png)
 
